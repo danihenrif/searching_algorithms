@@ -15,6 +15,6 @@ int buscaBinaria (int *v, int chave, int tam){
 int main() {
   int vetor[10] = {2, 5, 12, 23, 29, 32, 45, 65, 66, 76};
   int chave;
-  int tam = sizeof(vetor);
+  int tam = sizeof(vetor)/sizeof(int);
   printf("%d",buscaBinaria(vetor, 4040, tam));
 }

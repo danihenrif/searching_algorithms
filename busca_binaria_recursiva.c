@@ -35,6 +35,7 @@ int main () {
 
     retorno == true ? printf("true\n") : printf("false\n");
 
+    free(vetor);
 
     return 0;
 }
